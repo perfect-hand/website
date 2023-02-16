@@ -4,10 +4,19 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
-    <div class="text-center">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/imprint">Imprint</RouterLink>
+    <div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/">Home</RouterLink>
+            </li>
+            
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/imprint">Imprint</RouterLink>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
 
