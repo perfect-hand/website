@@ -2,5 +2,5 @@
 </script>
 
 <template>
-  <h1>Imprint</h1>
+  <h1 class="text-center">Imprint</h1>
 </template>
