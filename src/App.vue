@@ -23,11 +23,11 @@ import { RouterLink, RouterView } from "vue-router";
         </div>
       </nav>
     </div>
-
-    <h1 class="display-1 text-center">Perfect Hand Entertainment</h1>
   </header>
 
-  <RouterView />
+  <div class="container">
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>
